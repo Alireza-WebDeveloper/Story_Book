@@ -10,7 +10,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
 
 // ** Styled Component
 const StyledInput = styled.input`
-  border: var(--secondary) 1px solid;
+  border: var(--primary) 1px solid;
   padding: 0.3rem;
   border-radius: 0.3rem;
   ::placeholder {
