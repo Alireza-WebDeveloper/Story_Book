@@ -1,9 +1,20 @@
+import { useState } from "react";
+import Input from "../../Components/Common/Input";
+import TitleContainer from "../../Components/Common/TitleContainer";
+
 const Page = () => {
+  const [name, setName] = useState<string>("");
   return (
     <div>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus itaque
-      nam deserunt nostrum animi dolores. Voluptate animi ratione id quis ea
-      magnam, error officiis eaque aspernatur rem deleniti, quaerat neque.
+      <TitleContainer>list of products</TitleContainer>
+      <Input
+        className="mt-2"
+        value={name}
+        placeholder="Please Enter Your Name"
+        handleChange={(value: any) => {
+          setName(value);
+        }}
+      />
     </div>
   );
 };

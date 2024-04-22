@@ -5,3 +5,10 @@
 html {
   text-transform: capitalize;
 }
+
+:root {
+  --primary: rgb(78, 14, 239);
+  --secondary: #e7e7e7;
+  --success: #4caf50;
+  --danger: #f44336;
+}
