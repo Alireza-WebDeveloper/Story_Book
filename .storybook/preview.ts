@@ -1,5 +1,6 @@
 import type { Preview, Decorator } from "@storybook/react";
 import { ThemeProviderProps } from "emotion-theming";
+import { ViewportAddonParameter } from "@storybook/addon-viewport";
 import {
   INITIAL_VIEWPORTS,
   MINIMAL_VIEWPORTS,

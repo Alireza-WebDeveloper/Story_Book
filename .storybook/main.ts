@@ -9,7 +9,7 @@ const config: StorybookConfig = {
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
     "@storybook/addon-docs",
-
+    "@storybook/addon-viewport",
     "storybook-addon-root-attributes",
   ],
   framework: {
